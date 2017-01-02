@@ -19,10 +19,11 @@
 
 
 |セレクタ(CSS) |HTML |
-|:-|:-|
+|:--|:-:|
 |p,h1,h2|要素型|
 |.sample|クラス `class = "test"`|
 |#sample|id `id = "test"`|
+
 
 
 ### コーディングの注意
