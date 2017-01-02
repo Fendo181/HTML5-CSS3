@@ -1,0 +1,73 @@
+/*共通部分のCSS*/
+
+
+@charset "UTF-8";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #333;
+    font-size: 1.2rem;
+    font-family: "Hiragino Kaku Gtothic ProN",Meiryo,sans-serif;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+a:link,a:visited,a:hover,a:active{
+    color:rgb(48, 123, 171);
+    text-decoration: none;
+}
+
+
+.header{
+    /*端ま伸ばす*/
+    width: 100%;
+    /*上余白 28px 下余白 10px*/
+    padding:  28px 0 10px;
+    /*背景*/
+    background: url("../images/bg-header.gif");
+    /*box-shadow: 0 0 10px 1px #e3e3e3;*/
+    box-shadow:  6px 6px 10px rgb(172, 162, 133);
+}
+
+.wrapper{
+    width: 970px;
+    margin: 30px auto 40px;
+}
+
+.main{
+    display: block;
+    float: left;
+    width: 660px;
+}
+.sidemenu{
+    float: right;
+    width:275px;
+}
+
+.footer{
+    width: 100%;
+}
+
+/*なにこれ??*/
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+
+.header, .main,.sidemenu,.footer{
+    border: 1px solid #aaa;
+    background-color: #ccc;
+}
+.head,.footer{
+    height: 100px;
+}
+.main,.sidemenu{
+    height: 500px;
+}
