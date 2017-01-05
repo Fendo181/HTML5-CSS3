@@ -106,7 +106,7 @@
 
 ### 雛形
 
-```.HTML5
+```html
 
 <!DOCTYPE html>
 <html lang="ja">
